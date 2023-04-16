@@ -306,7 +306,7 @@ function HORDE:GetDefaultEnemiesData ()
     HORDE:CreateEnemy("Hulk",   "npc_vj_horde_hulk",                        0.03,  9, true, 1, 1, 2, 1, nil,nil,nil,nil,nil,nil,nil,1)
     HORDE:CreateEnemy("Yeti",   "npc_vj_horde_yeti",                        0.02,  9, true, 1, 1, 3, 1, nil,nil,nil,nil,nil,nil,nil,1)
     HORDE:CreateEnemy("Lesion", "npc_vj_horde_lesion",                      0.02,  9, true, 1, 1, 2, 1, nil,nil,nil,nil,nil,nil,nil,1)
-    HORDE:CreateEnemy("Plague Elite", "npc_vj_horde_plague_elite",          0.015,  9, true, 1, 1, 3, 1, nil,nil,nil,nil,nil,nil,nil,1)
+    HORDE:CreateEnemy("Plague Elite", "npc_vj_horde_plague_elite",          0.015,  9, true, 1, 1, 3, 1, nil,true,nil,nil,nil,nil,nil,1)
 
     HORDE:CreateEnemy("zombie vj",        "npc_vj_zss_czombie",      1,    10, false, 1, 1, 1, 1, nil)
     HORDE:CreateEnemy("zombie fast",      "npc_fastzombie",          1,    10, false, 1, 1, 1, 1, nil)
